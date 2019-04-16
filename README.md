@@ -1,6 +1,6 @@
 # SolarGest_Modelling
 
-This project consists of MATLAB codes that implement a solar cell based gesture recognition model using geometric analysis, where the results come from a [paper](https://arxiv.org/abs/1812.01766) to appear at Mobicom 2019. If you have any issues please check the FAQ or contact us.  
+This project consists of MATLAB codes that implement a solar cell based gesture recognition model using geometric analysis, where the results come from a [paper](https://arxiv.org/abs/1812.01766) to appear at Mobicom 2019. If you have any issues please check the [FAQ](https://github.com/dongma0a/SolarGest_Modelling/wiki) or [contact us](https://madongxx.wixsite.com/dongma).  
 
 If you use the code, please cite our paper. \
 @article{ma2018solargest,\
