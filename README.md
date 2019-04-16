@@ -14,7 +14,7 @@ If you use the code, please cite our paper. \
 MATLAB 2016b or later.
 
 # Files
-There for four files that create gesture time series and current (solar cell output) time series for horizontal and vertical movements, respectively. To better understand the code, readers may need to refer to our paper. Also, we provide two examples which demonstrate the utility of the proposed model. *example_parameter_impact_investigation.m* allows reader to investigate the impact of different parameters on the simulated gesture signals, while *example_recognition_accuracy_estimation.m* is able to generate a set of gestures and estimate the gesture recognition accuracy after signal processing and classification. 
+There for four files that create gesture time series and current (solar cell output) time series for horizontal and vertical movements, respectively. To better understand the code, readers may need to refer to our paper. Also, we provide two examples which demonstrate the utility of the proposed model. *example_parameter_impact_investigation.m* allows reader to investigate the impact of different parameters on the simulated gesture signals, while *example_recognition_accuracy_estimation.m* is able to generate a set of gestures and estimate the gesture recognition accuracy after signal processing and classification. In addition, *FeatureExtractionAll.m* allows you to extract more than 20 statistical features for classification.
 
 ## example_parameter_impact_investigation.m 
 Example of using the proposed model to investigate the impact of different parameters
