@@ -2,7 +2,7 @@
 
 This project consists of MATLAB codes that implement a solar cell based gesture recognition model using geometric analysis, where the results come from a [paper](https://arxiv.org/abs/1812.01766) to appear at Mobicom 2019. If you have any issues please check the [FAQ](https://github.com/dongma0a/SolarGest_Modelling/wiki) or [contact us](https://madongxx.wixsite.com/dongma).  
 
-If you use the code, please cite our paper. \
+Please consider citing the paper when any of the material is used in your research. \
 @article{ma2018solargest,\
   title={SolarGest: Ubiquitous and Battery-free Gesture Recognition using Solar Cells},\
   author={Ma, Dong and Lan, Guohao and Hassan, Mahbub and Upama, Mushfika B and Uddin, Ashraf and Youssef, Moustafa},\
@@ -14,10 +14,10 @@ If you use the code, please cite our paper. \
 MATLAB 2016b or later.
 
 # Files
-There for four files that create gesture time series and current (solar cell output) time series for horizontal and vertical movements, respectively. To better understand the code, readers may need to refer to our paper. Also, we provide two examples which demonstrate the utility of the proposed model. *example_parameter_impact_investigation.m* allows reader to investigate the impact of different parameters on the simulated gesture signals, while *example_recognition_accuracy_estimation.m* is able to generate a set of gestures and estimate the gesture recognition accuracy after signal processing and classification. In addition, *FeatureExtractionAll.m* allows you to extract more than 20 statistical features for classification.
+There are four files that are used for creating gesture time series and photocurrent (solar cell output) time series for horizontal and vertical movements, respectively. We provide elaborative comments for the code, which maybe cross-reference to the [paper] (https://arxiv.org/abs/1812.01766). Also, two examples which demonstrate the utility of the proposed model is provided: *example_parameter_impact_investigation.m* allows reader to investigate the impact of different parameters on the simulated gesture signals, while *example_recognition_accuracy_estimation.m* is able to generate a set of gestures and estimate the gesture recognition accuracy with a customized signal processing and classification pipeline. In addition, *FeatureExtractionAll.m* allows readers to extract more than 20 typical statistical features for classification.
 
 ## example_parameter_impact_investigation.m 
-Example of using the proposed model to investigate the impact of different parameters
+Example of using the proposed model to investigate the impact of different parameters on simulated gesture signals.
 
 ### steps:
 1. define and set parameters (detailed illustration of parameters please refer to Figure 2(b) in the paper).
