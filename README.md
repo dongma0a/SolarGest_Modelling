@@ -3,12 +3,15 @@
 This project consists of MATLAB codes that implement a solar cell based gesture recognition model using geometric analysis, where the results come from a [paper](https://arxiv.org/abs/1812.01766) to appear at Mobicom 2019.   
 
 Please consider citing the paper when any of the material is used in your research. \
+```
 @article{ma2018solargest,\
   title={SolarGest: Ubiquitous and Battery-free Gesture Recognition using Solar Cells},\
   author={Ma, Dong and Lan, Guohao and Hassan, Mahbub and Upama, Mushfika B and Uddin, Ashraf and Youssef, Moustafa},\
   journal={arXiv preprint arXiv:1812.01766},\
   year={2018}\
 }
+```
+
 
 # Software Requirements
 MATLAB 2016b or later.
