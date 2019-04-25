@@ -1,7 +1,7 @@
 # SolarGest_Modelling
 In this project, we developed a simulator, which is able to simulate the output photocurrent from a solar cell under different hand gestures, using geometric analysis in MATLAB. The simulator mainly consists of three parts: (1) parameter settings: geometric parameters (e.g., size of solar cell/hand, proximity between solar cell and hand, etc.), environmental parameters (e.g., light intensity), and gesture parameters (e.g., speed, direction); (2) gesture creation: a time series of hand positions are simulated to form a gesture; (3) photocurrent generation: a time series of photocurrent values are generated where each value corresponds to a single hand position. This photocurrent then acts as the response of the solar cell to a given gesture. 
 
-In addition, we provide an example of the utility of the simulator, i.e., estimating gesture recognition accuracy without field experiments, of which the effectiveness had been demonstrated in our [paper](https://arxiv.org/abs/1812.01766) to appear at Mobicom 2019. So, please consider citing the paper when any of the material is used in your research. 
+In addition, we provide an example of the utility of the simulator, i.e., estimating gesture recognition accuracy without field experiments, of which the effectiveness had been validated in our [paper](https://arxiv.org/abs/1812.01766) to appear at Mobicom 2019. So, please consider citing the paper when any of the material is used in your research. 
 ```
 @article{ma2018solargest,
   title={SolarGest: Ubiquitous and Battery-free Gesture Recognition using Solar Cells},
